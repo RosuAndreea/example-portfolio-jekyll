@@ -1,0 +1,28 @@
+.c-landing-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.c-landing-section__figure {
+    width: 40%;
+    margin: 0;
+}
+
+.c-landing-section__info {
+    width: 55%;
+    padding: 1rem;
+    text-align: left;
+}
+
+.c-landing-section--reverse {
+    background-color: #F1F2F3;
+
+    .c-landing-section__figure {
+        order: 2;
+    }
+
+    .c-landing-section__title {
+        text-align: right;
+    }
+}

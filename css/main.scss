@@ -1,0 +1,34 @@
+---
+---
+
+// SETTINGS
+@import '../_sass/settings/settings.main';
+
+// GENERIC
+@import '../_sass/generic/generic.normalize';
+@import '../_sass/generic/generic.reset';
+
+// ELEMENTS
+@import '../_sass/elements/element.body';
+@import '../_sass/elements/element.image';
+
+// COMPONENTS
+@import '../_sass/components/component.lists';
+@import '../_sass/components/component.buttons';
+
+@import '../_sass/components/component.page-header';
+@import '../_sass/components/component.navigation';
+@import '../_sass/components/component.page-hero';
+@import '../_sass/components/component.page-content';
+
+@import '../_sass/components/component.section';
+@import '../_sass/components/component.landing-section';
+
+
+// PAGES
+@import '../_sass/pages/page.landing';
+@import '../_sass/pages/page.about';
+@import '../_sass/pages/page.projects';
+@import '../_sass/pages/page.project';
+@import '../_sass/pages/page.contact';
+

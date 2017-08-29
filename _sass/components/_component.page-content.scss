@@ -1,0 +1,16 @@
+.c-page-content {
+    position: relative;
+    padding-top: 2rem;
+
+    &:after {
+        position: absolute;
+        z-index: 1;
+        top: calc(-40px + 1px);
+        display: block;
+        width: 100%;
+        height: 40px;
+        content: '';
+        background-image: url(../assets/images/curve-bg.svg);
+        background-size: 100% 100%;
+    }
+}

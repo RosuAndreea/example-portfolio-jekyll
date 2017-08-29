@@ -1,0 +1,22 @@
+.c-page-navigation {
+    width: 100%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.c-page-menu__item {
+    display: inline-block;
+}
+
+.c-page-menu__link {
+    font-size: 1.2rem;
+    display: block;
+    padding: 2rem;
+    text-decoration: none;
+    color: rgba(254, 254, 254, 0.75);
+    text-transform: uppercase;
+
+}
