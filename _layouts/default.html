@@ -7,39 +7,30 @@
 
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-
-        <header class="c-page-header">
-
-            <span class="c-logo"></span>
-
-            <nav class="c-page-navigation">
-                <ul class="c-list c-page-menu">
-
-                    <li class="c-page-menu__item">
-                        <a href="index.html" class="c-page-menu__link">Home</a>
-                    </li>
-
-                    <li class="c-page-menu__item">
-                        <a href="about.html" class="c-page-menu__link">About</a>
-                    </li>
-
-                    <li class="c-page-menu__item">
-                        <a href="projects.html" class="c-page-menu__link">Projects</a>
-                    </li>
-
-                    <li class="c-page-menu__item">
-                        <a href="contact.html" class="c-page-menu__link">Contact</a>
-                    </li>
-
-                </ul>
-            </nav>
-
-        </header>
+        <nav>
+            <span id="logo-title">Portfolio</span>
+            <ul class="navigation">
+                <a href="home.html"><li class="nav-item active">Home</li></a>
+                <a href="about.html"><li class="nav-item active">About</li></a>
+                <a href="projects.html"><li class="nav-item active">Projects</li></a>
+                <a href="contact.html"><li class="nav-item active">Contact</li></a>
+            </ul>
+        </nav>
 
         {{ content }}
+        
+        <footer>
+            <p>Don't be shy, <span id="social">say hi</span>!</p>
+            <div class="social-buttom">
+                <a href="https://www.facebook.com/andreea.alupoaei"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/alupoaeiandreea/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCf3HyxgweqVqEonned5fQQA?view_as=subscriber"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+            </div>
+        </footer>
     </body>
 
 </html>
