@@ -1,18 +1,22 @@
-.panel{
-	background-image: url("{{ site.baseurl }}/../../assets/images/land3.jpg");
-	width:100%;
-	max-height: 100%;
-	padding: 100px 0 100px 0;
-}
 .hero-title{
 	font-size: 50px;
 	width: 50%;
 	margin: auto;
 	text-align: center;
+	padding-top: 15%;
+	font-family: 'Playfair Display', serif;
 }
 .subtitle{
 	width: 70%;
 	margin: auto;
 	text-align: center;
 	font-size: 25px;
+	font-family: 'Lora', serif;
+}
+.banner-title{
+	font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    color: #FFF;
 }

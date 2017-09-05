@@ -1,0 +1,9 @@
+.banner{
+	background-image: url("{{ site.baseurl }}/../../assets/images/banner.jpg");
+	width:100%;
+	height: 200px;
+	background-size: cover;
+	margin-top: 50%;
+    display: block;
+    position: relative;
+}

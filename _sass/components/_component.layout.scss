@@ -1,0 +1,11 @@
+.panel{
+	background-image: url("{{ site.baseurl }}/../../assets/images/land3.jpg");
+	width:100%;
+	height: 600px;
+	background-size: cover;
+	margin-bottom: 0 !important;
+}
+.layout{
+	background-color: rgba(199, 148, 32, 0.73);
+	height: 100%;
+}
