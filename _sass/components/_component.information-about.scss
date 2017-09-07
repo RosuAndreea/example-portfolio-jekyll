@@ -1,10 +1,50 @@
+.about-inf{
+	width: 1306px;
+	margin: 0px auto;
+	min-height: 550px;
+}
+
 .information{
-	width: 40%;
+	width: 408px;
+    display: inline-block;
+    font-size: 20px;
+    color: #CCC;
+    float: left;
+    margin-top: 3%;
+    position: relative;
+}
+.galery{
+	width: 750px;
+	float: right;
 	display: inline-block;
-	font-size: 20px;
-	color:#CCC;
-	float: left;
-	padding: 15px;
-	margin-top:30px;
+	margin-top: 3%;
+	text-align: center;
 	position: relative;
+}
+@media screen and (max-width:1305px){
+	.about-inf {
+		width: 100%;
+	}
+	.information{
+		width: 35%;
+	}
+	.galery{
+		width: 50%;
+	}
+}
+@media screen and (max-width:1024px){
+	.information{
+		width: 38%;
+	}
+	.galery{
+		width: 47%;
+	}
+}
+@media screen and (max-width:786px){
+	.information{
+		width: 33%;
+	}
+	.galery{
+		width: 46%;
+	}
 }
