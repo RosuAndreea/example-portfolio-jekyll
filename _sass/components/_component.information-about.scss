@@ -1,17 +1,16 @@
 .about-inf{
-	width: 1306px;
 	margin: 0px auto;
 	min-height: 550px;
 }
-
 .information{
-	width: 408px;
+	width: 300px;
     display: inline-block;
     font-size: 20px;
     color: #CCC;
     float: left;
     margin-top: 3%;
     position: relative;
+    margin-left: 15px;
 }
 .galery{
 	width: 750px;
@@ -21,30 +20,35 @@
 	text-align: center;
 	position: relative;
 }
-@media screen and (max-width:1305px){
-	.about-inf {
+
+@media screen and (min-width: 320px) {
+	.information{
+		width: 90%;
+	}
+	.galery{
+		width: 100%;
+		float: left;
+	}
+	.banner{
+		margin-top: 10px;
+	}
+}
+@media screen and (min-width: 425px) {
+	.galery{
 		width: 100%;
 	}
+	.banner{
+		height: 200px;
+	}
+	.banner-title{
+		margin: auto; 
+	}
+}
+@media screen and (min-width: 1024px) {
 	.information{
-		width: 35%;
+		width: 45%;
 	}
 	.galery{
 		width: 50%;
-	}
-}
-@media screen and (max-width:1024px){
-	.information{
-		width: 38%;
-	}
-	.galery{
-		width: 47%;
-	}
-}
-@media screen and (max-width:786px){
-	.information{
-		width: 33%;
-	}
-	.galery{
-		width: 46%;
 	}
 }

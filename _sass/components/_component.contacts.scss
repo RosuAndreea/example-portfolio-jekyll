@@ -1,14 +1,12 @@
-.wrapper{
-	width: 1306px;
-	margin: 0;
-	min-height: 400px;
+.page-contact {
+	padding: 15px;
 }
-.contacts{
-	width: 600px;
-	float: left;
-	margin: 8% 0 0 0;
+.contact-map{
+	height: 100px;
+	background-color: orange;
+	margin-bottom: 20px;
 }
-.left-side{
+.contacts-left-side{
 	width: 120px;
     display: inline-block;
 	font-size: 25px;
@@ -17,83 +15,18 @@
 	text-align: left;
 	font-family: 'Lobster', cursive;
 }
-.right-side{
-	width: 480px;
+.contacts-right-side{
     display: inline-block;
-    padding-bottom: 2%;
 	font-size: 20px;
 	text-align: left;
 	color: #CCC;
 }
-#map{
-	width:700px;
-	float:right;
-}
-@media screen and (max-width:1305px){
-	.wrapper {
-		width: 100%;
-	}
-	.contacts{
-		width: 40%;
-	}
-	#map{
-		width: 60%;
-	}
-	.left-side{
-		width: 25%;
-	}
-	.right-side{
-		width: 60%;
-	}
-}
-@media screen and (max-width:1024px){
-	.wrapper {
-		width: 100%;
-	}
-	.contacts{
-		width: 40%;
-	}
-	#map{
-		width: 60%;
-	}
-	.left-side{
-		width: 32%;
-	}
-	.right-side{
-		width: 60%;
-	}
-}
-@media screen and (max-width:786px){
-	.wrapper {
-		width: 100%;
-	}
-	.contacts{
-		width: 40%;
-	}
-	#map{
-		width: 60%;
-	}
-	.left-side{
-		width: 40%;
-	}
-	.right-side{
-		width: 60%;
-	}
-}
-@media screen and (max-width:550px){
-	.wrapper {
-		width: 100%;
-	}
-	.contacts{
-		width: 40%;
-	}
-	#map{
-		width: 60%;
-	}
-	.left-side{
-		width: 70%;
-	}
-	.right-side{
-		width: 30%;
+
+
+@media screen and (min-width: 800px) {
+
+	.contacts-col {
+		float: left;
+		width: 50%;
 	}
 }

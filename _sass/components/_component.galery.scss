@@ -1,7 +1,29 @@
-
 .galery-item{
-	width: 47%;
+	width: 60%;
 	height: 150px;
 	padding-bottom: 0.5%;
 	cursor: pointer;
+}
+.material-placeholder{
+	width: 700px;
+	height: 150px; 
+	position: relative; 
+	top: 0px; 
+	left: 0px;
+}
+.materialbox-overlay{
+	width: 1200px;
+}
+.materialboxed{
+	display: inline-block !important;
+	width: 46%;
+	margin: auto;
+}
+.galery-left{
+	width: 50%;
+	float: left;
+}
+.galery-right{
+	width: 50%;
+	float: right;
 }
